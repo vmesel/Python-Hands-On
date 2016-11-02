@@ -45,3 +45,6 @@ O git é uma plataforma de versionamento que permite com que você salve seu tra
 #### Mas eu não quero instalar nada.
 
 Tudo bem, tudo bem... Já que você não quer instalar nada, utilize a IDE do [C9.IO](http://c9.io), ela não é a melhor IDE, mas serve o propósito de aprender a programar.
+
+
+[<- README.md](README.md) - [Configurando ->](configurando.md)

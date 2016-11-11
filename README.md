@@ -1,8 +1,8 @@
 # Python-Hands-On
-Primeiros passos para aprender Python
+Este é um repositório que permitirá que você dê seus primeiros passos para aprender Python e entrar neste mundo maravilhoso desta linguagem. Para poder iniciar, basta você seguir os exemplos desde a instalação até a criação de um projeto, seguindo estes passos, você estará bem preparado para poder começar a sua carreira com Python
 
 
-Exemplos simples e diretos para se entender a linguagem
+Abaixo segue a lista de exemplos simples e diretos para se entender a linguagem Python e permitir que você programe nela ainda hoje!
 
  - [Instalando](instalando.md)
  - [Configurando](configurando.md)

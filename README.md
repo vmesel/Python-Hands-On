@@ -9,6 +9,7 @@ Abaixo segue a lista de exemplos simples e diretos para se entender a linguagem 
  - [Olá Mundo](ola-mundo.md) Um clássico da programação :smiley:
  - [Variáveis](variaveis.md)
  - [Funções](funcoes.md)
+ - [If e Else](if-else.md)
  - [Loops](loops.md)
  - [Classes](classes.md)
  - [Pacotes PIP](pacotes-pip.md)

@@ -26,3 +26,4 @@ print(soma(1,2))
 ```python
 print(soma(num1=1, num2=2))
 ```
+[<- Variáveis](variaveis.md) - [If e Else ->](if-else.md)

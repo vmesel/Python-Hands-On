@@ -20,7 +20,7 @@ dicionario = {"Ola": "Mundo"}
 lista = ["primeiro item", "segundo item"]
 ```
 
-Como você pode perceber, para declarar números, sejam eles ints ou floats, não é necessária a adição de aspas ao redor deles, já os demais tipos que recebem textos dentro deles é necessário que seja adicionado aspas em volta de seus textos.
+Como você pode perceber, para declarar números, sejam eles ints ou floats, não é necessária a adição de aspas ao redor deles, já os demais tipos que recebem textos dentro deles é necessário que seja adicionado aspas (simples ou duplas) em volta de seus textos.
 Depois de montarmos estas variáveis, por que não fazemos um print de seus tipos e de seus valores 
 
 ```
@@ -59,5 +59,13 @@ print(a, b)
 ```
 
 Neste código nós definimos dois tipos de variáveis diferenciadas e logo em seguida, nós as colocamos na tela, após isto, nós as invertemos e colocamos na tela novamente para podermos verificar que uma variável não fica presa a um valor.
+
+Variáveis em Python são como rótulos (post-it), quando você faz:
+
+```
+a = 10
+```
+
+A atribuição é lida da direita para a esquerda. Primeiro o objeto é criado em memória e depois temos um símbolo que é "grudado" nesse objeto. Não é o objeto que é atribuído à variável, mas a variável que é atribuída ao objeto.
 
 [<- Olá Mundo](ola-mundo.md) - [Funções ->](funcoes.md)

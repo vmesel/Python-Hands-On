@@ -28,14 +28,22 @@ while CERTA_CONDIÇÃO:
 O loop se quebrará automaticamente até que a condição que você quer seja realizada, mas caso você queira quebrar esta condição no meio do loop, use o _break_ como no exemplo a seguir:
 
 ```
+X = 0
 while X < 100:
-  print(X)
-  if X == 10:
-    break
+	print(X)
+	X = X + 1
+	if X == 10:
+		break
 ```
 
 ## Loops for:
 
-A completar...
+Loops for são tradicionalmente usados quando você precisa que uma instrução seja repetida certo número de vezes.
+```
+lista = ["amarelo", "vermelho", "verde"]
+
+for x in lista:
+	print(x)
+``
 
 [<- If e Else](if-else.md) - [Classes ->](classes.md)

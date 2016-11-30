@@ -44,6 +44,6 @@ lista = ["amarelo", "vermelho", "verde"]
 
 for x in lista:
 	print(x)
-``
+```
 
 [<- If e Else](if-else.md) - [Classes ->](classes.md)

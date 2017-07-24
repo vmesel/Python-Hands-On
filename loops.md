@@ -9,13 +9,13 @@ Existem três tipos de loop em Python:
 ## Loop While
 
 O loop while é muito intuitivo, ele acontece enquanto obedecer uma certa condição!
-Por exemplo, eu quero que o loop ocorra enquanto o número X for menor q 10
+Por exemplo, eu quero que o loop ocorra enquanto o número X for menor que 10
 
 ```python
 X = 0
 while X < 10:
   print(X)
-  X + 1
+  X = X + 1
 ```
 
 O loop while se resume a isso
@@ -28,14 +28,22 @@ while CERTA_CONDIÇÃO:
 O loop se quebrará automaticamente até que a condição que você quer seja realizada, mas caso você queira quebrar esta condição no meio do loop, use o _break_ como no exemplo a seguir:
 
 ```
+X = 0
 while X < 100:
-  print(X)
-  if X == 10:
-    break
+	print(X)
+	X = X + 1
+	if X == 10:
+		break
 ```
 
 ## Loops for:
 
-A completar...
+Loops for são tradicionalmente usados quando você precisa que uma instrução seja repetida certo número de vezes.
+```
+lista = ["amarelo", "vermelho", "verde"]
+
+for x in lista:
+	print(x)
+```
 
 [<- If e Else](if-else.md) - [Classes ->](classes.md)

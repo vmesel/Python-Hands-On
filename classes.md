@@ -1,4 +1,4 @@
-#classes
+# Classes
 
 Python é uma linguagem de programação de múltiplos paradigmas e um dos seus paradigmas é orientação a objetos. E em python a orientação a objeto é orientado a classe, sim, existe linguagem orientado a objeto e que não é orientado a classe como por exemplo o javascript que é orientado a protótipo. Então vamos introduzi-lo ao conceito de classes.
 

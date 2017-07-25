@@ -1,25 +1,21 @@
 # Classes
 
-Python é uma linguagem de programação de múltiplos paradigmas e um dos seus paradigmas é orientação a objetos. E em python a orientação a objeto é orientado a classe, sim, existe linguagem orientado a objeto e que não é orientado a classe como por exemplo o javascript que é orientado a protótipo. Então vamos introduzi-lo ao conceito de classes.
+Python é uma linguagem de programação de múltiplos paradigmas de programação, entre eles a orientação a objetos é um dos mais conhecidos e mais usado nos últimos anos. A orientação a objeto pythônica é orientado a classe, e neste artigo nós pretendemos introduzir-lhe um pouco mais sobre as classes.
 
-Segundo a documentação do python. Uma classe associa dados (atributos) e operações (métodos) numa só estrutura. Um objeto é uma variável cujo tipo é uma classe, ou seja, um objeto é uma instância de uma classe.
+Segundo a documentação do Python, uma classe associa dados (atributos) e operações (métodos) em uma estrutura única. Um objeto é uma variável cujo tipo é uma classe, ou seja, um objeto é uma instância de uma classe.
 
-A sintaxe simples para declararmos uma classe é:
+A sintaxe para declararmos uma classe é a seguinte:
 
-```py
+```python
 class NomeDaClasse():
-    pass
+    pass # aqui podem vir os diversos metodos e atributos da sua classe
 
-obj = NomeDaClasse()
+objeto_de_classe = NomeDaClasse()
 ```
 
-A variável obj é o objeto da classe NomedaClasse, ou seja, uma instância dessa classe.
+A variável objeto_de_classe é um objeto da classe NomedaClasse, ou seja, uma instância dessa classe e dentro dela, podemos ter diversos atributos e métodos. Um atributo de classe, também conhecido como atributo estático, pois, seu valor é compartilhado com todas as instância (objetos).
 
-Como falamos uma classe associa dados (atributos) e operações (métodos).
-
-Existem dois tipo de atributos, os atributos da classe e atributos de instância. Voltando ao nosso exemplo:
-
-Um atributo de classe, também conhecido como atributo estático, pois, seu valor é compartilhado com todas as instância (objetos).
+## Atributos de classe
 
 Para declarar um atributo de classe é igualmente fazemos quando criamos uma variável, a diferença que criamos essa variável dentro da classe, desse modo:
 

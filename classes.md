@@ -83,4 +83,4 @@ Agora vamos entender o construtor ```def __init__()```. Como o próprio nome sug
 
 Agora finalmente podemos entender o atributo de instância, que acredito que nesse momento você já deve estar achando simples. Como sabemos o self é a instância do objeto, e o atributo de instância é quando usamos o ```self.atributo```, os valores contido neste atributo são o valores do objeto, logo cada objeto pode ter valores diferentes para o mesmo atributo.
 
-Espero ter contribuido para você entenda esses conceitos básico, porém, crucial para entender orientação a objeto.
+[<- Loops](loops.md) - [Pacotes PIP ->](pacotes_pip.md)

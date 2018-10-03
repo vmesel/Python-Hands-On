@@ -8,8 +8,10 @@ Assim como em toda linguagem de programação, o Python também trata os diferen
  - tuple (Classe de tuplas em Python);
  - dict (Classe de dicionários em Python);
  - str (Classe de strings em Python)
- 
- Como Python possui apenas a sua tipagem dinâmica, ou seja, você não precisa definir os tipos de valores de uma variável e eles podem ser mutáveis, você declara um valor de qualquer tipo da seguinte maneira
+
+PS: Não existem tipos primitivos em Python, ou seja, mesmo os tipos considerados "básicos" em outras linguagens (`int`, `float`, `boolean`...) são objetos compostos por propriedades e comportamentos.
+
+Como Python possui apenas a sua tipagem dinâmica, ou seja, você não precisa definir os tipos de valores de uma variável e eles podem ser mutáveis, você declara um valor de qualquer tipo da seguinte maneira
  
 ```
 inteiro = 2
